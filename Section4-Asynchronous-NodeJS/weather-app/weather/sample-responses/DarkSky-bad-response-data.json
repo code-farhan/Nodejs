@@ -1,0 +1,36 @@
+{
+  "statusCode": 400,
+  "body": {
+    "code": 400,
+    "error": "The given location (or time) is invalid."
+  },
+  "headers": {
+    "server": "nginx",
+    "date": "Fri, 15 Sep 2017 15:54:39 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "63",
+    "connection": "close",
+    "x-forecast-api-calls": "5",
+    "x-response-time": "2.411ms"
+  },
+  "request": {
+    "uri": {
+      "protocol": "https:",
+      "slashes": true,
+      "auth": null,
+      "host": "api.darksky.net",
+      "port": 443,
+      "hostname": "api.darksky.net",
+      "hash": null,
+      "search": "?units=si",
+      "query": "units=si",
+      "pathname": "/forecast/API_KEY/40.617741222.9600568",
+      "path": "/forecast/API_KEY/40.617741222.9600568?units=si",
+      "href": "https://api.darksky.net/forecast/API_KEY/40.617741222.9600568?units=si"
+    },
+    "method": "GET",
+    "headers": {
+      "accept": "application/json"
+    }
+  }
+}

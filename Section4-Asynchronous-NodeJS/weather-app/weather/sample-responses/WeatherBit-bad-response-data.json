@@ -1,0 +1,41 @@
+{
+  "statusCode": 400,
+  "body": {
+    "error": "Invalid Parameters supplied."
+  },
+  "headers": {
+    "server": "openresty/1.11.2.2",
+    "date": "Fri, 15 Sep 2017 11:18:37 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "42",
+    "connection": "close",
+    "x-ratelimit-limit": "75",
+    "x-ratelimit-remaining": "59",
+    "x-ratelimit-reset": "1505475488",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET, OPTIONS, POST",
+    "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range",
+    "access-control-expose-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range",
+    "x-iplb-instance": "12422"
+  },
+  "request": {
+    "uri": {
+      "protocol": "https:",
+      "slashes": true,
+      "auth": null,
+      "host": "api.weatherbit.io",
+      "port": 443,
+      "hostname": "api.weatherbit.io",
+      "hash": null,
+      "search": "?units=M&lat=38.12lon=-78.543&key={API_KEY}",
+      "query": "units=M&lat=38.12lon=-78.543&key={API_KEY}",
+      "pathname": "/v2.0/current",
+      "path": "/v2.0/current?units=M&lat=38.12lon=-78.543&key={API_KEY}",
+      "href": "https://api.weatherbit.io/v2.0/current?units=M&lat=38.12lon=-78.543&key={API_KEY}"
+    },
+    "method": "GET",
+    "headers": {
+      "accept": "application/json"
+    }
+  }
+}
